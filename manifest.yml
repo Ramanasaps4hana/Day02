@@ -1,0 +1,7 @@
+---
+applications:
+- name: nodejsday02
+  host: nodejsday02
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
